@@ -1,0 +1,608 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+.hero-section {
+  background: linear-gradient(290.51deg, #033EFF -1.9%, #33B5FF 86.05%);
+}
+
+.mx-width-1860 {
+  max-width: 1860px !important;
+}
+
+.mx-width-1560 {
+  max-width: 1560px !important;
+}
+
+.text-blue {
+  color: #033EFF;
+}
+
+.bg-f5 {
+  background: #f5f5f5;
+}
+
+.text-light-blue {
+  color: #33B5FF;
+}
+
+.empty-header {
+  height: 30px;
+  background: #FFFFFF;
+  opacity: 0.3;
+}
+
+.header-logo {
+  width: calc(100px + 6vw);
+  ;
+}
+
+.header-toggler {
+  width: 25px;
+}
+
+.vertical-line {
+  background: #fff;
+}
+
+.separator {
+  width: 100%;
+  height: 0;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.text-white-75 {
+  color: rgb(231, 231, 231);
+}
+
+.hero-social-btns {
+
+  .fa {
+    font-size: 1.6rem;
+    color: #033EFF;
+    transition: 0.3s all;
+
+    &:hover {
+      color: #fff;
+    }
+  }
+
+  .vertical-line,
+  a {
+    margin-bottom: 30px;
+  }
+}
+
+.title {
+  font-size: calc(1rem + 0.15vw);
+}
+
+.title-name {
+  font-size: calc(1rem + 3vw);
+}
+
+.hero-section {
+  position: relative;
+
+  .btn {
+    width: 275px;
+    font-size: calc(1rem + 0.15vw);
+    border-radius: 0;
+    border: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: relative;
+
+    .horizontal-line {
+      width: 40%;
+      height: 7px;
+      background: black;
+      position: absolute;
+      top: 0;
+      left: 10%;
+    }
+  }
+
+  .vertical-line {
+    width: 18%;
+    height: 1.5px;
+  }
+
+  .btn-white {
+    background: #fff;
+    color: #33B5FF;
+    transition: 0.1s all;
+
+    .horizontal-line {
+      background: #33B5FF;
+    }
+
+    &:hover {
+      outline: 3px solid #033EFF;
+    }
+  }
+
+  .btn-blue {
+    color: #fff;
+    background: #033EFF;
+    transition: 0.1s all;
+
+    .horizontal-line {
+      background: #fff;
+    }
+
+    &:hover {
+      outline: 3px solid #fff;
+    }
+  }
+
+  .smart-link-container {
+    position: absolute;
+    bottom: 0;
+
+    a {
+      color: white;
+      text-decoration: none;
+      transition: 0.3s all;
+
+
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+  }
+}
+
+.right-arrow {
+  width: 50px;
+}
+
+.hero-img {
+  max-width: 500px;
+}
+
+.section-logo {
+  img {
+    min-width: 75px;
+  }
+
+  .horizontal-line {
+    height: 4px;
+    width: 50px;
+    background: #33B5FF;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.section-title {
+  margin-top: 0.5rem;
+}
+
+.truck-section {
+
+  .markt-truck {
+    min-height: 200px;
+  }
+
+  .truck-title {
+    font-size: calc(1rem + 1.2vw);
+  }
+
+  .truck-text {
+    font-size: calc(1rem + 0.3vw);
+  }
+}
+
+.supported-section {
+
+  .icon-white {
+    display: none;
+  }
+
+  .card-text {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: calc(0.6rem + 0.3vw);
+  }
+
+  .card {
+    max-width: 350px;
+    background: #f5f5f5;
+
+    &:hover {
+
+      background: linear-gradient(317.14deg, #033EFF -3.61%, #33B5FF 87.04%);
+
+      .card-title,
+      .card-text {
+        color: #fff;
+      }
+
+      .icon {
+        display: none;
+      }
+
+      .icon-white {
+        display: block;
+      }
+    }
+  }
+
+  .card-img {
+    width: 146px;
+    height: 90px;
+  }
+}
+
+.card-bg-blue {
+  background: linear-gradient(317.14deg, #033EFF -3.61%, #33B5FF 87.04%);
+}
+
+.border-top-blue {
+  border-top: 2px solid #33B5FF;
+}
+
+.border-bottom-blue {
+  border-bottom: 2px solid #33B5FF;
+}
+
+.bullet-points {
+  list-style-image: url('./../img/bullet.svg');
+  padding-left: 0rem;
+  margin-top: 2rem;
+  font-size: calc(1rem + 0.3vw);
+}
+
+.token-section {
+  .section-content {
+    background: linear-gradient(269.82deg, #033EFF 0.14%, #33B5FF 99.84%);
+    border-top: 10px solid #033EFF;
+    font-size: calc(1rem + 0.3vw);
+  }
+
+  .right-arrow {
+    width: 100px;
+  }
+
+  .pie-img {
+    width: 700px;
+  }
+
+  .table-id {
+    width: 50px;
+  }
+
+  .table-text {
+    width: 300px;
+  }
+
+  .table-amount {
+    margin-left: 5%;
+    font-weight: bold;
+  }
+}
+
+.horizontal-line-inside {
+  height: 4px;
+  width: 35%;
+  background: #33B5FF;
+}
+
+.tax-section {
+  padding-block: 5rem;
+  padding-inline: 1.5rem;
+
+  .bullet-points {
+    padding-left: 0;
+  }
+
+  &>div {
+    margin-top: 5rem;
+  }
+
+  .tax-title {
+    font-size: calc(1rem + 2.3vw);
+  }
+
+  .tax-title,
+  .content-body {
+    z-index: 99;
+    position: relative;
+  }
+
+  .poly {
+    position: absolute;
+    z-index: 0;
+  }
+
+  .ellipse {
+    width: 40px;
+    top: -40px;
+    left: 0;
+  }
+
+  .poly-1 {
+    width: 100px;
+    bottom: 0;
+    right: 30%;
+  }
+
+  .poly-2 {
+    width: 125px;
+    top: -120px;
+    right: -10px;
+  }
+}
+
+.section-vertical-line {
+  width: 8px;
+  height: 60%;
+  padding-inline: 0;
+  background: #33B5FF;
+  position: absolute;
+
+  &.left-align {
+    left: 0;
+  }
+
+  &.right-align {
+    right: 0;
+  }
+}
+
+.road-section {
+  padding-block: 5rem;
+  padding-inline: 1.5rem;
+
+  .section-vertical-line {
+    height: 85%;
+  }
+
+  .horizontal-line-inside {
+    width: 12%;
+  }
+
+  .road-title {
+    font-size: calc(1rem + 2.3vw);
+  }
+
+  .circle-card {
+    background: linear-gradient(318.47deg, #033EFF -3.69%, #33B5FF 87.09%);
+    width: 250px;
+    height: 250px;
+    border-radius: 125px;
+    padding-inline: 0;
+    overflow: hidden;
+  }
+
+  .circle-text {
+    font-size: calc(1rem + 0.3vw);
+    text-align: center;
+  }
+
+  .circle-title {
+    font-style: italic;
+    font-weight: bold;
+    padding-block: 2rem;
+    text-align: center;
+    font-size: calc(1rem + 0.4vw);
+    background-color: #033EFF;
+  }
+}
+
+.staking-section {
+  .title-text {
+    font-size: calc(1rem + 2.3vw);
+  }
+
+  .sub-title-text {
+    font-size: calc(0.8rem + 0.2vw);
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.514);
+  }
+
+  .sub-title-text {
+    width: 80%;
+  }
+
+  .row {
+    margin-top: calc(3rem + 0.5vw);
+  }
+
+  .bg-col {
+    background-image: url('./../img/staking-bg.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 540px;
+  }
+}
+
+.left-50 {
+  left: 50%;
+}
+
+.swap-section {
+  .card {
+    background: #F5F5F5;
+    width: 300px;
+    height: 230px;
+    max-width: 100%;
+
+    &:hover {
+      background: linear-gradient(316.1deg, #033EFF -3.55%, #33B5FF 87.01%);
+      color: #fff;
+    }
+  }
+
+  .card-img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .btn-more {
+    background: linear-gradient(290.51deg, #033EFF -1.9%, #33B5FF 86.05%);
+    border: 0;
+    border-radius: 0;
+    width: 100px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.audit-section {
+
+  img {
+    width: 350px;
+    height: 280px;
+  }
+
+  .audit-text {
+    p {
+      color: #888;
+    }
+  }
+
+  .input-group {
+
+    .form-control {
+      background: #F5F5F5;
+      border-radius: 0;
+      padding: 15px;
+      border: none;
+    }
+
+    .btn {
+      border: none;
+      padding-inline: 20px;
+      border-radius: 0;
+      background: linear-gradient(279.81deg, #033EFF -1.03%, #33B5FF 85.55%);
+    }
+  }
+}
+
+footer {
+  background: linear-gradient(290.51deg, #033EFF -1.9%, #33B5FF 86.05%);
+
+  .form-control {
+    border: 4px solid #fff;
+    border-radius: 0;
+    padding: 15px;
+    background: white;
+  }
+
+  .btn-primary {
+    width: 85px;
+    background: #33b5ff;
+    border: 4px solid #fff;
+    border-radius: 0;
+  }
+
+  .horizontal-line-white {
+    position: absolute;
+    width: 40px;
+    height: 4px;
+    bottom: -10px;
+    left: 0;
+    background: rgba(255, 255, 255, 0.753);
+  }
+
+  .footer-right-row {
+    border-bottom: 2px solid #888;
+  }
+
+  .social-icon {
+    max-width: 60px;
+    margin-right: 20px;
+    border: 4px solid #fff;
+    padding-block: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+  }
+}
+
+.footer-logo {
+  width: 150px;
+}
+
+@media (min-width: 768px) {
+
+  .hero-section {
+
+    .vertical-line {
+      width: 3px;
+      height: 35px;
+    }
+
+    .smart-link-container {
+      bottom: 5%;
+    }
+  }
+
+  .road-section,
+  .tax-section {
+    padding-inline: 2.5rem;
+  }
+
+  .tut-body {
+    border-top: 0 !important;
+    border-left: 1.5px solid rgb(180, 180, 180);
+  }
+}
+
+@media (min-width: 992px) {
+  .truck-section {
+
+    .markt-truck {
+      height: 600px;
+    }
+  }
+
+  .staking-section {
+
+    .sub-title-text {
+      width: 75%;
+    }
+  }
+
+  .tax-section .bullet-points {
+    padding-left: 1.5rem;
+  }
+
+  .bg-col {
+    background-size: contain !important; 
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .road-section,
+  .tax-section {
+    padding-inline: 5rem;
+  }
+
+  .partnership-section {
+
+    .sub-title-text {
+      width: 70%;
+    }
+  }
+
+  .table-amount {
+    margin-left: 15%;
+  }
+}
+
+@media (min-width: 1500px) {
+
+  .staking-section {
+
+    .sub-title-text {
+      width: 60%;
+    }
+  }
+
+}
